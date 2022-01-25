@@ -2,7 +2,6 @@ package com.iot.espet.controllers;
 
 import com.iot.espet.entities.Device;
 import com.iot.espet.entities.Espet;
-import com.iot.espet.entities.User;
 import com.iot.espet.services.DeviceService;
 import com.iot.espet.services.EspetService;
 import com.iot.espet.util.ValidRegister;
@@ -20,7 +19,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.validation.Valid;
 import java.util.Optional;
 
 @RestController
